@@ -1,0 +1,136 @@
+.ExpenceForm{
+    width: 100%;
+    /* height: 100vh; */
+}
+.ExpenceForm1{
+    width: 50%;
+    height:180px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: aquamarine;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #BB8FCE;
+}
+
+.h1tag{
+    height: 20px;
+}
+.h5tag{
+    margin-left: 5px;
+    /* margin-top: 50px; */
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.Input1{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 13rem;
+    max-width: 100%;
+    box-shadow: 5px 5px  15px #888888;
+    
+    
+}
+.Input2{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 13rem;
+    max-width: 100%;
+    box-shadow: 5px 5px  15px #888888;
+    /* margin-left: 5px; */
+    margin-right: 5px;
+    
+}
+.Addbutton{
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 7px;
+    margin-right: 1rem;
+    margin-left: 2px;
+    box-shadow: 5px 5px  15px #888888;
+    
+}
+.titleh2{
+    height: 35px;
+    margin-left: 25%;
+    padding-bottom: 0px;
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    margin-left: 25%;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px  30px 1px #BB8FCE;
+
+    
+}
+
+/* .ErrorMessagePopup{
+    width: 400px;
+    height: 100px;
+    background-color: #BB8FCE;
+    border-radius: 10px;
+    color: white; /* Add this line to set text color */
+  /* padding: 10px; */
+/* } */ */
+/* .errorbutton{
+    border-radius: 20px;
+    background-color: red;
+}
+.ErrorMessage{
+    color:white;
+} */
+
+.ErrorMessagePopup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    padding: 20px;
+    background-color: #FF8080; /* Choose a background color */
+    color: white; /* Text color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .errorbutton {
+    border: none;
+    background-color: #FF5050; /* Choose a background color */
+    color: white; /* Text color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .ErrorMessage {
+    margin-bottom: 0;
+    width: 500px;
+    height: 100px;
+    margin-top: 50px;
+    color: black;
+    background-color:#BB8FCE;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  

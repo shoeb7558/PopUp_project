@@ -1,0 +1,28 @@
+
+.displaydiv2{
+    /* margin-right: 50px; */
+    margin-left: 25%;
+    padding-left: 30px;
+    width: 49%;
+    padding-right: 30px;
+    background-color: aquamarine;
+    /* justify-content: space-between; */
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px  35px #BB8FCE;
+    margin-top: 10px;
+    gap: 20px;
+}
+/* .amounth2{
+ height: 20px;
+ width: 70px;
+ background-color: bisque;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ align-items: center;
+ display: flex;
+ border-radius: 10px;
+ box-shadow: 1px 1px  15px #888888;
+
+} */
